@@ -64,6 +64,7 @@ export default {
             for (let i = 0; i < _array.length; i++) {
                 let object = {}
                 object["x"] = new Date(_array[i].time * 1000)
+
                 // candelstick 
                 object["y"] = [_array[i].open, _array[i].high, _array[i].low, _array[i].close]
                 // area
@@ -98,7 +99,6 @@ export default {
         //         //let newSeries = this.objectRebuild(_series)
         //         //console.log(response.data.Data.Data)
         //         //chart.updateSeries(this.series.data, true)
-        //         //chart.updateSeries(this.series.data)
         //     })
     }
 }

@@ -92,7 +92,7 @@ export default {
 }
 
 .pair-tabs li:hover {
-    transform: scale(1.01);
+    color: #d89b00;
     opacity: 0.8;
     transition: 0.2s;
 }

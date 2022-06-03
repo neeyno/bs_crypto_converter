@@ -10,7 +10,6 @@
 </template>
 
 <script>
-
 export default {
     name: 'Header',
     data: () => ({
@@ -19,8 +18,6 @@ export default {
     }),
     methods: {
         changeTab(index) {
-            console.log(index, "tab")
-
             if (index != this.tabIndex) {
                 this.tabIndex = index;
                 this.$emit('changePath', index)
@@ -90,7 +87,7 @@ header {
 }
 
 .home-tabs li:hover {
-    transform: scale(1.01);
+    color: #d89b00;
     opacity: 0.7;
     transition: 0.2s;
 }

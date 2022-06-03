@@ -31,13 +31,13 @@
 <script>
 import DoughnutChart from '../components/Doughnut'
 
-const options = {
-    responsive: true,
-    maintainAspectRatio: false,
-    animation: {
-        animateRotate: false
-    }
-}
+// const options = {
+//     responsive: true,
+//     maintainAspectRatio: false,
+//     animation: {
+//         animateRotate: false
+//     }
+// }
 
 export default {
     name: 'Dashboard',
@@ -191,8 +191,8 @@ export default {
 
 li:hover {
     opacity: 0.9;
-    border-bottom: 1px solid #090030;
-    margin-bottom: -1px
+    border-left: 2px solid #090030;
+    width: 97.5%;
 }
 
 .ul-asset div {
