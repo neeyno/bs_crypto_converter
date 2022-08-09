@@ -1,10 +1,15 @@
-# bs_converter
+# Crypto converter
+
+The app only supports three currencies: Bitcoin (BTC), Ether (ETH), and US Dollar (USD), and it is divided into two pages.
+
+- There is a converter on first page, as well as graph of exchange rate over the last 14 days.
+- A simple cryptocurrency portfolio is implemented on the second page. The amount of cryptocurrency in your portfolio can be reduced or removed by the user. The page includes the current portfolio valuation in dollars, as well as a diagram (graph) of the portfolio's cryptocurrency distribution.
 
 > A Vue.js project
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 npm install
 

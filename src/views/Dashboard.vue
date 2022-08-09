@@ -61,8 +61,6 @@ export default {
                 value: 1000
             },
         ],
-
-        totalBalance: 0
     }),
     emits: ['update'],
     methods: {

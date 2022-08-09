@@ -26,7 +26,6 @@ export default {
     },
   },
 }
-// 'Poppins',
 </script>
 
 <style>
@@ -51,7 +50,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #090030;
-
 }
 
 .logo {
